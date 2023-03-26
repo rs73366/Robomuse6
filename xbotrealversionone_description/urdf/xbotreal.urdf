@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+    <robot name = "xbotreal">
+        <link name="base_link">
+        </link>
+
+        <!--link name="sensor_laser_1">
+        </link>
+        <link name = "sensor_laser_2">
+        </link-->
+        <link name="front_lidar">
+        </link>
+        <link name="rear_lidar">
+        </link>
+        <link name ="imu_link">
+        </link>
+        <!--joint name="base_link_to_front_laser" type="fixed">
+            <parent link="base_link"/>
+            <child link="laserfront"/>
+            <origin xyz= "0.3 0 0.17" rpy = "0 0 0">
+            <axis xyz=" 0 0 0"/>
+        </joint-->
+<!-- for robocan use the values below>
+        <joint name="base_link_to_laser" type="fixed">
+            <parent link="base_link"/>
+            <child link = "laser"/>
+            <origin xyz="-0.3 0 0.17" rpy="0 0 0"/>
+            <axis xyz="0 0 0"/>
+        </joint-->
+<!-- for robomuse6/froniter use the values below-->
+        <joint name="base_link_to_front_lidar" type="fixed">
+            <parent link="base_link"/>
+            <child link = "front_lidar"/>
+            <origin xyz="0.35 0 0.0" rpy="0 0 0"/>
+            <axis xyz="0 0 0"/>
+        </joint>
+        <joint name="base_link_to_rear_lidar" type="fixed">
+            <parent link="base_link"/>
+            <child link = "rear_lidar"/>
+            <origin xyz="-0.35 0 0.0" rpy="0 0 0"/>
+            <axis xyz="0 0 0"/>
+        </joint>        
+        <!--joint name ="base_link_to_imu" type="fixed">
+            <parent link="base_link"/>
+            <child link="imu_link"/>
+            <origin xyz="0.30 0 0" rpy="0 0 0"/>
+            <axis xyz="0 0 0"/>
+        </joint-->
+        <joint name="imu_joint" type="fixed">
+            <origin xyz="0.3 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="imu_link"/>
+        </joint>
+        <!--joint name="base_link_to_sensor_laser_1" type="fixed">
+            <parent link="base_link"/>
+            <child link = "sensor_laser_1"/>
+            <origin xyz="0.30 0 0.0" rpy="0 0 0"/>
+            <axis xyz="0 0 0"/>
+        </joint>
+        <joint name="base_link_to_sensor_laser_2" type="fixed">
+            <parent link="base_link"/>
+            <child link = "sensor_laser_2"/>
+            <origin xyz="-0.30 0 0.0" rpy="0 0 0"/>
+            <axis xyz="0 0 0"/>
+        </joint-->
+        
+
+
+    </robot>
+
+
+

@@ -1,0 +1,12 @@
+
+
+<launch>
+    <include ns="front_lidar" file="$(find rplidar_ros)/launch/rplidar_arg_mod.launch">
+        <arg name="serial_port" value="/dev/front_lidar"/> 
+        
+    </include>
+    <include ns="rear_lidar" file="$(find rplidar_ros)/launch/rplidar_arg_mod2.launch">
+        <arg name="serial_port" value="/dev/rear_lidar"/>
+      
+    </include>
+</launch>

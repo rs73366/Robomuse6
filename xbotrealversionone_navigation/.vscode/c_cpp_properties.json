@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rahul/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/rahul/catkin_ws/src/navigation/amcl/include/**",
+        "/home/rahul/catkin_ws/src/navigation/base_local_planner/include/**",
+        "/home/rahul/catkin_ws/src/navigation/carrot_planner/include/**",
+        "/home/rahul/catkin_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/rahul/catkin_ws/src/navigation/costmap_2d/include/**",
+        "/home/rahul/catkin_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/rahul/catkin_ws/src/navigation/global_planner/include/**",
+        "/home/rahul/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/rahul/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/rahul/catkin_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/rahul/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/rahul/catkin_ws/src/map_provider/include/**",
+        "/home/rahul/catkin_ws/src/navigation/map_server/include/**",
+        "/home/rahul/catkin_ws/src/navigation/move_base/include/**",
+        "/home/rahul/catkin_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/rahul/catkin_ws/src/my_ROS_mobile_robot/my_robot_base/include/**",
+        "/home/rahul/catkin_ws/src/navigation/nav_core/include/**",
+        "/home/rahul/catkin_ws/src/navigation/navfn/include/**",
+        "/home/rahul/catkin_ws/src/real_test_bot/include/**",
+        "/home/rahul/catkin_ws/src/rosserial/rosserial_server/include/**",
+        "/home/rahul/catkin_ws/src/rosserial/rosserial_test/include/**",
+        "/home/rahul/catkin_ws/src/navigation/rotate_recovery/include/**",
+        "/home/rahul/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/rahul/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/rahul/catkin_ws/src/two_lidar_tfs/include/**",
+        "/home/rahul/catkin_ws/src/universal_robot/ur_kinematics/include/**",
+        "/home/rahul/catkin_ws/src/navigation/voxel_grid/include/**",
+        "/home/rahul/catkin_ws/src/vscodebot/include/**",
+        "/home/rahul/catkin_ws/src/xbotrealversionone_description/include/**",
+        "/home/rahul/catkin_ws/src/xbotrealversionone_navigation/include/**",
+        "/home/rahul/catkin_ws/src/xbotversionfive_navigation/include/**",
+        "/home/rahul/catkin_ws/src/xbotversionseven_navigation/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
